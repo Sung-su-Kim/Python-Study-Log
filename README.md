@@ -9,7 +9,7 @@ A repository to document my python problem solving journey and thought process.
 ## Components
 
 - **problems/**  
-  A folder for each problem. Each problem contains `solution.py`, `improved.py`, and `README.md`.  
+  A folder for each problem. Each problem contains `solution.py`, `improved.py`, and `README.md`
   - `solution.py`: My initial solution  
   - `improved.py`: A better or optimized solution  
   - `README.md`: Notes on problem-solving process, thought process, and lessons learned
