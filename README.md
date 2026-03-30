@@ -1,7 +1,7 @@
 # Python-Study-Log
 A repository to document my python problem solving journey and thought process.
 
-## 🎯 Goals
+## Goals
 - Do not look at the solution until I completely solve the problem
 - Record my thought process while solving problems
 - Improve my code to find more efficient solutions
@@ -18,4 +18,4 @@ A repository to document my python problem solving journey and thought process.
   General study notes on data structures, algorithms, and Python tips
 
 - **utils/**  
-  Helper functions or library code frequently used across problems 🛠️
+  Helper functions or library code frequently used across problems
