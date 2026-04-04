@@ -43,6 +43,18 @@ if x.lstrip("-").isdigit():
 
 # (c in directions for c in sannpo)
 # 하나씩 검사 결과를 만들어 낸다
+gen = (x for x in range(3))
+
+# 함수형태의 제너레이터
+
+def count_up_to(n):
+    i = 1
+    while i <= n:
+        yield i
+        i += 1
+
+gen = count_up_to(3)
+print (next(gen))
 
 # ====================================
 # all()
@@ -52,3 +64,24 @@ if x.lstrip("-").isdigit():
 
 all([True, True, True])   # True
 all([True, False, True])  # False
+
+# ====================================
+# async / await
+# 기다리는 작업을 효율적으로 처리하는 문법으로서
+# 오래걸리는 작업(네트워크, 파일 등)을 기다리는 동안
+# 다른 일을 함. 비동기 처리
+# ====================================
+
+async def f():
+    await something()
+
+# ====================================
+# 리스트 컴프리핸션
+# for문을 한 줄로 줄여서 리스트를 만드는 문법
+# ====================================
+
+nums = [i for i in range(5)]
+
+nums = [i * 2 for i in range(5)]
+
+nums = [i for i in range(10) if i % 2 == 0]
